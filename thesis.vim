@@ -36,7 +36,7 @@ set shortmess=aoO
 argglobal
 %argdel
 $argadd thesis.tex
-edit ~/Zettelkasten/1063.md
+edit ~/Zettelkasten/1109.md
 set splitbelow splitright
 wincmd _ | wincmd |
 vsplit
@@ -173,11 +173,11 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 41 - ((11 * winheight(0) + 16) / 33)
+let s:l = 1 - ((0 * winheight(0) + 16) / 33)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-41
+1
 normal! 0
 wincmd w
 argglobal
@@ -311,14 +311,13 @@ normal! zt
 540
 normal! 0
 wincmd w
-2wincmd w
 exe 'vert 1resize ' . ((&columns * 45 + 63) / 126)
 exe 'vert 2resize ' . ((&columns * 80 + 63) / 126)
 tabnext 1
-badd +2 thesis.tex
+badd +41 ~/Zettelkasten/1063.md
+badd +1 thesis.tex
 badd +1 ~/Zettelkasten/1149.md
 badd +56 ~/Zettelkasten/1109.md
-badd +0 ~/Zettelkasten/1063.md
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0
   silent exe 'bwipe ' . s:wipebuf
 endif
