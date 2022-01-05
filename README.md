@@ -1,5 +1,5 @@
 # Thesis
-This is the development page for my master's thesis if you are lost, start here.
+This is the development page for my master's thesis. If you are lost, start here.
 
 This is GitHub, it is a place to manage files that are being developed by lots of people. It's mostly used by software developers, but it's a great tool for anybody who is doing collaborative writing. GitHub is just the online front-end for the program `git`, which is perhaps the most important verison control software ever made. It allows you to take an image of the file every time that you change it, and manage these changes across multiple users, allowing for multi-branch development.
 
