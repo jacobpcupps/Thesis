@@ -1,9 +1,9 @@
 # Thesis
 This is the development page for my master's thesis. If you are lost, start here.
 
-This is GitHub, it is a place to manage files that are being developed by lots of people. It's mostly used by software developers, but it's a great tool for anybody who is doing collaborative writing. GitHub is just the online front-end for the program `git`, which is perhaps the most important verison control software ever made. It allows you to take an image of the file every time that you change it, and manage these changes across multiple users, allowing for multi-branch development.
+This is GitHub, it is a place to manage files that are being developed by lots of people. It's mostly used by software developers, but it's a great tool for anybody who is doing long-term or collaborative writing. In an effort and experiment in transparency I've decided to make this project public. 
 
-`Git` only works on text files, which is one of the reasons that I prefer to write in `LaTeX`, which is basically a programming languauge for typsetting pdfs, but don't worry, it's highly "non-user legible."
+GitHub is just the online front-end for the program `git`, which is perhaps the most important verison control software ever made. It allows you to take an image of the file every time that you change it, and manage these changes across multiple users, allowing for multi-branch development. `Git` only works on text files, which is one of the reasons that I prefer to write in `LaTeX`, which is basically a programming languauge for typsetting pdfs, but don't worry, it's highly "non-user legible."
 
 To see what is new, click on the little clock with the backward arrow on the top right corner of the main text frame of this page. It's right next to the word "commits." This will show you a timeline of changes. 
 
