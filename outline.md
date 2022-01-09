@@ -43,7 +43,7 @@ Neoliberalism?
 [Context is the product of attention](927.md)  
 ==================
 
-**Move all of this to the section on media?**
+**Move all of this to the Worm Listener?**
 
 X[Hockney, looking is the beauty](923.md)  
 X[TV to make the world aware of itself](915.md)  
