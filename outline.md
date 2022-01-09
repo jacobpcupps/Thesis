@@ -117,10 +117,11 @@ x[Adorno's emancipatory art requires the bourgeoisie](1011.md)
 x[Baugh: emancipatory art from the masses](1013.md)  
 x[My understanding of Sesame Street is just one possibility of many](1039.md)  
 
-### Prologue 2:  
-[Prologue II: The Worm-Listener's Ear-View](1115.md)
 
 ## Part 2: The Worm-Listener's Ear-View
+
+### Prologue 2:  
+[Prologue II: The Worm-Listener's Ear-View](1115.md)
 
 ### Listening *with* the music: ecological humor
 
