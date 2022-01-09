@@ -41,7 +41,6 @@ Neoliberalism?
 [The ecological attention-based understanding](926.md)  
 [Paying attention, understanding ecologies](925.md)  
 [Context is the product of attention](927.md)  
-==================
 
 **Move all of this to the Worm Listener?**
 
@@ -99,7 +98,7 @@ X[Down's syndrome and Kingsley on Sesame Street](966.md)
 [Sesame Street set is based on Harlem](937.md)    
 
 [Nixon and the end of Children's Television Workshop gov. funding](956.md)  
-[Write-up from summer]
+[Write-up from summer]  
 [Cooney's hands-off approach to managing Sesame Street](938.md)  
 x[Most liberal government since](942.md)  
 
