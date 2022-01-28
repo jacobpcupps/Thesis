@@ -1,0 +1,446 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global}
+    \entry{Brit}{article}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Britannica Academic}
+      \field{title}{Sesame Street}
+    \endentry
+    \entry{Cooney}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0d77e4ff703996eee7794fac55a8c4d4}{%
+           family={Cooney},
+           familyi={C\bibinitperiod},
+           given={Jans},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{0d77e4ff703996eee7794fac55a8c4d4}
+      \strng{fullhash}{0d77e4ff703996eee7794fac55a8c4d4}
+      \strng{bibnamehash}{0d77e4ff703996eee7794fac55a8c4d4}
+      \strng{authorbibnamehash}{0d77e4ff703996eee7794fac55a8c4d4}
+      \strng{authornamehash}{0d77e4ff703996eee7794fac55a8c4d4}
+      \strng{authorfullhash}{0d77e4ff703996eee7794fac55a8c4d4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \true{uniquework}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Potential Uses of Television in Childrens Education}
+      \field{year}{1966}
+    \endentry
+    \entry{Davis}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4c089f435be08225365f7e6c5f42526e}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Viking}%
+      }
+      \strng{namehash}{4c089f435be08225365f7e6c5f42526e}
+      \strng{fullhash}{4c089f435be08225365f7e6c5f42526e}
+      \strng{bibnamehash}{4c089f435be08225365f7e6c5f42526e}
+      \strng{authorbibnamehash}{4c089f435be08225365f7e6c5f42526e}
+      \strng{authornamehash}{4c089f435be08225365f7e6c5f42526e}
+      \strng{authorfullhash}{4c089f435be08225365f7e6c5f42526e}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \true{uniquework}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{subtitle}{The Complete History of Sesame Street}
+      \field{title}{Street Gang}
+      \field{year}{2008}
+    \endentry
+    \entry{Deleuze}{book}{}
+      \name{author}{2}{}{%
+        {{hash=01e8c4f353d8f2d65f9f05ee78f50c8c}{%
+           family={Deleuze},
+           familyi={D\bibinitperiod},
+           given={Gilles},
+           giveni={G\bibinitperiod}}}%
+        {{hash=66d5882d1b915f34a91db385913655e4}{%
+           family={Guattari},
+           familyi={G\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=e5288ee5e0acf76488eeef230895b893}{%
+           family={Massumi},
+           familyi={M\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis}%
+      }
+      \list{publisher}{1}{%
+        {University of Minnesota Press}%
+      }
+      \strng{namehash}{ba8f2f22fc0b7b1b39cf7f61b1e850b0}
+      \strng{fullhash}{ba8f2f22fc0b7b1b39cf7f61b1e850b0}
+      \strng{bibnamehash}{ba8f2f22fc0b7b1b39cf7f61b1e850b0}
+      \strng{authorbibnamehash}{ba8f2f22fc0b7b1b39cf7f61b1e850b0}
+      \strng{authornamehash}{ba8f2f22fc0b7b1b39cf7f61b1e850b0}
+      \strng{authorfullhash}{ba8f2f22fc0b7b1b39cf7f61b1e850b0}
+      \strng{translatorbibnamehash}{e5288ee5e0acf76488eeef230895b893}
+      \strng{translatornamehash}{e5288ee5e0acf76488eeef230895b893}
+      \strng{translatorfullhash}{e5288ee5e0acf76488eeef230895b893}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \true{uniquework}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{subtitle}{Capitalism and Schizophrenia}
+      \field{title}{A Thousand Plateaus}
+      \field{year}{1987}
+    \endentry
+    \entry{Illich}{book}{}
+      \name{author}{1}{}{%
+        {{hash=99e8a817947e13044842679cefbd0fa7}{%
+           family={Illich},
+           familyi={I\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Hasbro}%
+      }
+      \strng{namehash}{99e8a817947e13044842679cefbd0fa7}
+      \strng{fullhash}{99e8a817947e13044842679cefbd0fa7}
+      \strng{bibnamehash}{99e8a817947e13044842679cefbd0fa7}
+      \strng{authorbibnamehash}{99e8a817947e13044842679cefbd0fa7}
+      \strng{authornamehash}{99e8a817947e13044842679cefbd0fa7}
+      \strng{authorfullhash}{99e8a817947e13044842679cefbd0fa7}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \true{uniquework}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Deschooling Society}
+      \field{year}{1970}
+      \verb{urlraw}
+      \verb http://gen.lib.rus.ec/book/index.php?md5=d8e2ca8f363e74990fdc794505cb3879
+      \endverb
+      \verb{url}
+      \verb http://gen.lib.rus.ec/book/index.php?md5=d8e2ca8f363e74990fdc794505cb3879
+      \endverb
+    \endentry
+    \entry{Meany}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b4628548bb4fe2dc472e7b9e578ea418}{%
+           family={Meany},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4628548bb4fe2dc472e7b9e578ea418}
+      \strng{fullhash}{b4628548bb4fe2dc472e7b9e578ea418}
+      \strng{bibnamehash}{b4628548bb4fe2dc472e7b9e578ea418}
+      \strng{authorbibnamehash}{b4628548bb4fe2dc472e7b9e578ea418}
+      \strng{authornamehash}{b4628548bb4fe2dc472e7b9e578ea418}
+      \strng{authorfullhash}{b4628548bb4fe2dc472e7b9e578ea418}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \true{uniquework}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Review of Politics}
+      \field{number}{4}
+      \field{title}{The Insitution of Public Television}
+      \field{volume}{30}
+      \field{year}{1968}
+      \field{pages}{403\bibrangedash 414}
+      \range{pages}{12}
+    \endentry
+    \entry{Odell}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ec227f544928ddba7237d2b100974e15}{%
+           family={Odell},
+           familyi={O\bibinitperiod},
+           given={Jenny},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{2}{%
+        {Brooklyn}%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Melville House}%
+      }
+      \strng{namehash}{ec227f544928ddba7237d2b100974e15}
+      \strng{fullhash}{ec227f544928ddba7237d2b100974e15}
+      \strng{bibnamehash}{ec227f544928ddba7237d2b100974e15}
+      \strng{authorbibnamehash}{ec227f544928ddba7237d2b100974e15}
+      \strng{authornamehash}{ec227f544928ddba7237d2b100974e15}
+      \strng{authorfullhash}{ec227f544928ddba7237d2b100974e15}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \true{uniquework}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{subtitle}{Resisting the Attention Economy}
+      \field{title}{How to Do Nothing}
+      \field{year}{2019}
+    \endentry
+    \entry{Ostrofsky2017}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=b0b22128adbee0e1aea9fe8534e1c46e}{%
+           family={Ostrofsky},
+           familyi={O\bibinitperiod},
+           given={Kathryn\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=0361ac7b8a85b1de65972e5cce2221e7}{%
+           family={Giuffre},
+           familyi={G\bibinitperiod},
+           given={Liz},
+           giveni={L\bibinitperiod}}}%
+        {{hash=74e1c0c9886dcf6b2fbc20d67b491eaf}{%
+           family={Hayward},
+           familyi={H\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Milton Park, UK}%
+      }
+      \list{publisher}{1}{%
+        {Routeledge}%
+      }
+      \strng{namehash}{b0b22128adbee0e1aea9fe8534e1c46e}
+      \strng{fullhash}{b0b22128adbee0e1aea9fe8534e1c46e}
+      \strng{bibnamehash}{b0b22128adbee0e1aea9fe8534e1c46e}
+      \strng{authorbibnamehash}{b0b22128adbee0e1aea9fe8534e1c46e}
+      \strng{authornamehash}{b0b22128adbee0e1aea9fe8534e1c46e}
+      \strng{authorfullhash}{b0b22128adbee0e1aea9fe8534e1c46e}
+      \strng{editorbibnamehash}{e8b4935563b86cfcfe55a632ff01b492}
+      \strng{editornamehash}{e8b4935563b86cfcfe55a632ff01b492}
+      \strng{editorfullhash}{e8b4935563b86cfcfe55a632ff01b492}
+      \field{extraname}{1}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \true{uniquework}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Music in Comedy Television: Notes on Laughs}
+      \field{title}{\textit{Sesame Street} as a Musical Comedy-Variety Show}
+      \field{year}{2017}
+      \field{pages}{15\bibrangedash 30}
+      \range{pages}{16}
+    \endentry
+    \entry{Ostrofsky2012}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b0b22128adbee0e1aea9fe8534e1c46e}{%
+           family={Ostrofsky},
+           familyi={O\bibinitperiod},
+           given={Kathryn\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b0b22128adbee0e1aea9fe8534e1c46e}
+      \strng{fullhash}{b0b22128adbee0e1aea9fe8534e1c46e}
+      \strng{bibnamehash}{b0b22128adbee0e1aea9fe8534e1c46e}
+      \strng{authorbibnamehash}{b0b22128adbee0e1aea9fe8534e1c46e}
+      \strng{authornamehash}{b0b22128adbee0e1aea9fe8534e1c46e}
+      \strng{authorfullhash}{b0b22128adbee0e1aea9fe8534e1c46e}
+      \field{extraname}{2}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \true{uniquework}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Jounral of Popular Music Studies}
+      \field{number}{3}
+      \field{title}{Talking Sesame to the Streets: Young Children's Interactions with Pop Music's Aesthetics in the 1970s}
+      \field{volume}{24}
+      \field{year}{2012}
+      \field{pages}{287\bibrangedash 304}
+      \range{pages}{18}
+    \endentry
+    \entry{Porter}{book}{}
+      \name{author}{1}{}{%
+        {{hash=10c8518b44b369633212e30f99dd0597}{%
+           family={Porter},
+           familyi={P\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Chapel Hill}%
+      }
+      \list{publisher}{1}{%
+        {The University of North Carolina Press}%
+      }
+      \strng{namehash}{10c8518b44b369633212e30f99dd0597}
+      \strng{fullhash}{10c8518b44b369633212e30f99dd0597}
+      \strng{bibnamehash}{10c8518b44b369633212e30f99dd0597}
+      \strng{authorbibnamehash}{10c8518b44b369633212e30f99dd0597}
+      \strng{authornamehash}{10c8518b44b369633212e30f99dd0597}
+      \strng{authorfullhash}{10c8518b44b369633212e30f99dd0597}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \true{uniquework}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{subtitle}{The Forgotten Art of Radio Storytelling}
+      \field{title}{Lost Sound}
+      \field{year}{2016}
+    \endentry
+    \entry{Rodgers}{book}{}
+      \name{author}{1}{}{%
+        {{hash=275ddcc5aedbd1c633b917817ab67e43}{%
+           family={Rodgers},
+           familyi={R\bibinitperiod},
+           given={Tara},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Durham}%
+      }
+      \list{publisher}{1}{%
+        {Duke University Press}%
+      }
+      \strng{namehash}{275ddcc5aedbd1c633b917817ab67e43}
+      \strng{fullhash}{275ddcc5aedbd1c633b917817ab67e43}
+      \strng{bibnamehash}{275ddcc5aedbd1c633b917817ab67e43}
+      \strng{authorbibnamehash}{275ddcc5aedbd1c633b917817ab67e43}
+      \strng{authornamehash}{275ddcc5aedbd1c633b917817ab67e43}
+      \strng{authorfullhash}{275ddcc5aedbd1c633b917817ab67e43}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \true{uniquework}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{subtitle}{Women on Electronic Music and Sound}
+      \field{title}{Pink Noises}
+      \field{year}{2010}
+    \endentry
+    \entry{Wiktionary}{online}{}
+      \field{sortinit}{s}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labeltitlesource}{title}
+      \field{title}{sandbox}
+      \field{urlday}{5}
+      \field{urlmonth}{1}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wiktionary.org/wiki/sandbox
+      \endverb
+      \verb{url}
+      \verb https://en.wiktionary.org/wiki/sandbox
+      \endverb
+    \endentry
+    \entry{0458}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labeltitlesource}{title}
+      \field{day}{24}
+      \field{month}{1}
+      \field{subtitle}{Episode 0458---Nobody believes that Snuffy is real/Another snowy day}
+      \field{title}{Sesame Street}
+      \field{year}{1973}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=L3N5B21EEXQ
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=L3N5B21EEXQ
+      \endverb
+    \endentry
+    \entry{4081}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labeltitlesource}{title}
+      \field{day}{7}
+      \field{month}{5}
+      \field{subtitle}{Episode 4081---Rosita dislikes her accent}
+      \field{title}{Sesame Street}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=goUNpfS_Aa0
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=goUNpfS_Aa0
+      \endverb
+    \endentry
+    \entry{Ety}{online}{}
+      \field{sortinit}{u}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{labeltitlesource}{title}
+      \field{title}{understand (v.)}
+      \field{urlday}{31}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.etymonline.com/word/understand
+      \endverb
+      \verb{url}
+      \verb https://www.etymonline.com/word/understand
+      \endverb
+    \endentry
+    \entry{WLPVimeo}{online}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeltitlesource}{title}
+      \field{title}{World Listening Day 2019 ``Listening with is so nourishing''}
+      \field{urlday}{14}
+      \field{urlmonth}{1}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://vimeo.com/342883550?embedded=true&source=vimeo_logo&owner=20220901
+      \endverb
+      \verb{url}
+      \verb https://vimeo.com/342883550?embedded=true&source=vimeo_logo&owner=20220901
+      \endverb
+    \endentry
+    \entry{WLP}{online}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeltitlesource}{title}
+      \field{title}{World Listening Project -- About Us}
+      \field{urlday}{14}
+      \field{urlmonth}{1}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.worldlisteningproject.org/about-us/
+      \endverb
+      \verb{url}
+      \verb https://www.worldlisteningproject.org/about-us/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

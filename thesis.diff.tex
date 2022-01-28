@@ -1,0 +1,1190 @@
+\documentclass[12pt,letterpaper]{article}
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL thesisOld.tex   Wed Jan  5 13:56:43 2022
+%DIF ADD thesis.tex      Sat Jan  8 19:42:57 2022
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{palatino}
+\usepackage[notes,backend=biber]{biblatex-chicago}
+\bibliography{thesis.bib}
+\usepackage[left=1.20in, right=1.20in, top=1.20in, bottom=1.20in]{geometry}
+ %DIF > 
+\newcommand{\ses}{\textit{Sesame Street }} %DIF > 
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+\providecommand{\DIFmodbegin}{} %DIF PREAMBLE
+\providecommand{\DIFmodend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+\newcommand{\DIFscaledelfig}{0.5}
+%DIF HIGHLIGHTGRAPHICS PREAMBLE %DIF PREAMBLE
+\RequirePackage{settobox} %DIF PREAMBLE
+\RequirePackage{letltxmacro} %DIF PREAMBLE
+\newsavebox{\DIFdelgraphicsbox} %DIF PREAMBLE
+\newlength{\DIFdelgraphicswidth} %DIF PREAMBLE
+\newlength{\DIFdelgraphicsheight} %DIF PREAMBLE
+% store original definition of \includegraphics %DIF PREAMBLE
+\LetLtxMacro{\DIFOincludegraphics}{\includegraphics} %DIF PREAMBLE
+\newcommand{\DIFaddincludegraphics}[2][]{{\color{blue}\fbox{\DIFOincludegraphics[#1]{#2}}}} %DIF PREAMBLE
+\newcommand{\DIFdelincludegraphics}[2][]{% %DIF PREAMBLE
+\sbox{\DIFdelgraphicsbox}{\DIFOincludegraphics[#1]{#2}}% %DIF PREAMBLE
+\settoboxwidth{\DIFdelgraphicswidth}{\DIFdelgraphicsbox} %DIF PREAMBLE
+\settoboxtotalheight{\DIFdelgraphicsheight}{\DIFdelgraphicsbox} %DIF PREAMBLE
+\scalebox{\DIFscaledelfig}{% %DIF PREAMBLE
+\parbox[b]{\DIFdelgraphicswidth}{\usebox{\DIFdelgraphicsbox}\\[-\baselineskip] \rule{\DIFdelgraphicswidth}{0em}}\llap{\resizebox{\DIFdelgraphicswidth}{\DIFdelgraphicsheight}{% %DIF PREAMBLE
+\setlength{\unitlength}{\DIFdelgraphicswidth}% %DIF PREAMBLE
+\begin{picture}(1,1)% %DIF PREAMBLE
+\thicklines\linethickness{2pt} %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,0){\framebox(1,1){}}}% %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,0){\line( 1,1){1}}}% %DIF PREAMBLE
+{\color[rgb]{1,0,0}\put(0,1){\line(1,-1){1}}}% %DIF PREAMBLE
+\end{picture}% %DIF PREAMBLE
+}\hspace*{3pt}}} %DIF PREAMBLE
+} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddbegin}{\DIFaddbegin} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddend}{\DIFaddend} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelbegin}{\DIFdelbegin} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelend}{\DIFdelend} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddbegin}{\DIFOaddbegin \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelbegin}{\DIFOdelbegin \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddbeginFL}{\DIFaddbeginFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOaddendFL}{\DIFaddendFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelbeginFL}{\DIFdelbeginFL} %DIF PREAMBLE
+\LetLtxMacro{\DIFOdelendFL}{\DIFdelendFL} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddbeginFL}{\DIFOaddbeginFL \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFaddendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelbeginFL}{\DIFOdelbeginFL \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
+\DeclareRobustCommand{\DIFdelendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
+%DIF LISTINGS PREAMBLE %DIF PREAMBLE
+\RequirePackage{listings} %DIF PREAMBLE
+\RequirePackage{color} %DIF PREAMBLE
+\lstdefinelanguage{DIFcode}{ %DIF PREAMBLE
+%DIF DIFCODE_UNDERLINE %DIF PREAMBLE
+  moredelim=[il][\color{red}\sout]{\%DIF\ <\ }, %DIF PREAMBLE
+  moredelim=[il][\color{blue}\uwave]{\%DIF\ >\ } %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstdefinestyle{DIFverbatimstyle}{ %DIF PREAMBLE
+	language=DIFcode, %DIF PREAMBLE
+	basicstyle=\ttfamily, %DIF PREAMBLE
+	columns=fullflexible, %DIF PREAMBLE
+	keepspaces=true %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim}{\lstset{style=DIFverbatimstyle}}{} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim*}{\lstset{style=DIFverbatimstyle,showspaces=true}}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+
+\begin{document}
+
+	\title{Playing \textit{with} the Music: Ecologies of Attention and Understating 
+	in the Classical Music Education Project of \textit{Sesame Street}}
+	\author{Eden Attar}
+	\maketitle
+	\doublespacing
+	\thispagestyle{empty}
+	\newpage
+	\clearpage
+	\setcounter{page}{1}
+	\thispagestyle{empty}
+
+	\section*{Introduction}	
+
+	If I have done anything right this paper should be easy to read. I
+	think that is the kindest thing a writer can do. If I have
+	done anything right this paper should also not be quite like anything 
+	you have seen before. I might say that is the second kindest thing a 
+	writer can do.  
+
+	In the spirit of easy reading, here's a summary of what lies ahead:
+
+	This is a paper about the ecologies of attention and understanding 
+	evident in and emergent from the presentation of classical music on the
+	classic children's television program \textit{Sesame Street.}  
+
+	The paper takes three parts. The first part is an analysis of context,
+	attention, and education on the program, framed through the analogy of
+	bird-watching. I argue that the classical music education which is 
+	presented on the program deviates from the humanitarian norm of 
+	``uplift'' and absolute aesthetics---the bird's-eye view---and instead
+	presents an understanding of music which resonates with ideas of 
+	``listening with''---the view of the bird watcher, or in the words of
+	Jenny Odell, the bird \textit{listener} who observes and is observed;
+	who through acts of attention learns to perceive the world around them
+	pluralisticly. In this section I argue that while \textit{Sesame
+	Street} engages with aspects of critical pedagogy, it is ultimately 
+	resistant to educational classifications. The program is itself
+	\textit{ecological}, composed of many interacting and competing parts
+	which create a program whose character is emergent and consistent, but
+	not unified.   
+
+	Part two is an analysis of classical music performance on the program, 
+	framed through the analogy of the worm-listener---they who listen as 
+	outsiders to 
+	the arcane sound of the world beneath our feet. This section deals with
+	questions of parody, virtuosity, and childhood. It contains three
+	character studies of classical musicians who made appearances on the
+	program: Yo-Yo Ma, Evelyn Glennie, and Lang Lang.   
+
+	In this section I argue that \textit{Sesame Street} takes part in a
+	long tradition of classical music parody which welcomes the outsider
+	while at the same time engages the classical music native and initiate
+	---that is, the worm, who has spent its life embedded in the classical
+	strata.
+	\textit{Sesame Street} neither challenges nor exalts the classical 
+	music canon, but rather serves as an enabling technology, a 
+	\textit{geophone}, which allows for the areal listener to perceive and  
+	engage with the arcane sounds of underworld.  
+
+	This project takes shape in two media: one is what you are reading 
+	right now, the 
+	``white paper'' presentation of the research. The other is a 
+	non-striated recreation of the field in the form of a Multi User 
+	Domain, or MUD. The third section of this paper deals with the themes
+	of diversity,
+	equity, and liberation which inform the project.  
+
+	Each part begins with a prologue---or dare I say, a dramatic monologue
+	---written in first-person perspective
+	which grounds the following discussion. If the chapters look at
+	musical and educational ecologies, the prologues give lived context for
+	the geological bedrock on which these ecologies are based.  
+
+	I'll count myself off: LIGHTS. CAMERA. ACTION!	
+
+	\newpage	
+	\section*{Prologue: In \textit{media} res}
+
+	\noindent
+	On a summer evening in Saint Louis I was listening to the radio in
+	the kitchen. In the research for this paper, which had grown from a 
+	character
+	study on Yo-Yo Ma to encompass the themes of eduction and public 
+	broadcasting,
+	I had decided that I should actually own some kind of broadcast 
+	receiver. 
+	After looking into mini televisions, I settled on the conservative 
+	option
+	of a radio. As I chopped onions, my local NPR station's weekend 
+	programming
+	buzzed in the background.
+
+	A program on the recent events in Afghanistan had ended and the PSA 
+	space, where a commercial station
+	would have run adds, began. I heard a woman's voice say ``This is Saint
+	Louis Public Radio. Understanding Starts Here.'' 
+
+	My ears perked up. What an intriguing declaration. It is not ``This is 
+	Saint Louis Public Radio, your source of news,'' or ``This is Saint 
+	Louis Public Radio: hear the nation.'' Instead, the 
+	slogan is a 
+	promise to increase your \textit{understanding. }NPR is offering not
+	just to 
+	inform you, but moreover to provide some kind of ethical education,
+	presumably into cultural-socio-political events such that one comes away
+	\textit{understanding.}
+
+	A strange word, ``understanding.'' In the context of the 
+	socio-political,
+	cultural and economic topics under the purview of national public 
+	radio, something seems very kind about the word. It feels emotionally
+	laden and steeped in empathy. 
+
+	Its usage does not imply factual understanding, something like ``Let
+	us factually explain what's going on in Afghanistan,'' but rather, 
+	``cultivate an understanding of the human experiences of Afghanistan 
+	along with us.'' 
+
+
+	Etymologically, the ``under'' in the first half of the word 
+	``understand'' does not denote the more modern ``below,'' but rather 
+	among or in-between. \autocite{Ety} To understand is to stand among. 
+	What \textit{NPR} is offering, then, is empathy in a broadcast. 
+
+
+	This \DIFdelbegin \DIFdel{is continuous with the founding rhetoric }\DIFdelend \DIFaddbegin \DIFadd{offering of empathy continues the founding ethos }\DIFaddend of \textit{NPR} and its
+	focus on hearing common people speak. 
+	\textit{All Things Considered}, now one of the most listened-to programs
+	on American radio, debuted with the chaotic coverage of
+	what at the time was the biggest anti-Vietnam war protest to date. It
+	consisted of tape gathered by multiple reporters at the event with no 
+	overarching narrative. It was unlike anything on the radio at the time.
+	Its chaos was intended to capture the chaos of the moment, but was also
+	part of a larger aesthetic and political trend on the program to hear 
+	the voices of normal Americans. Something now known as the 
+	``public radio sound.'' 
+
+	The sound is recognizable to this day by its lack of a 
+	narrator and the featuring of \DIFdelbegin \DIFdel{the voices of common people}\DIFdelend \DIFaddbegin \DIFadd{interviewees from the general public}\DIFaddend . It 
+	was pioneered by the ``founding mother'' of \textit{NPR}, radio 
+	journalist Susan Stamberg. She was inspired by the cinema verité of the
+	time, saying that the idea ``was to tell a story without telling it---
+	just sound through chunks.'' This meant no authoritative radio voice,
+	but instead just giving everyday Americans time to talk before moving 
+	along to another speaker. The work of narrative interpretation is left
+	to the listener, who is given a more rhizomatic view of the events---
+	a radical new direction in radio journalism and broadcast culture more
+	generally.  
+
+	One particular aspect of the public radio sound was the use of ``cross
+	talk,'' a technique in which two voices are layered onto one another 	
+	in polyphony, which was inspired by Glenn Gould's ``contrapuntal 
+	storytelling'' in \textit{The Solitude Trilogy.}\autocite[197]{Porter}
+	Stamberg retrospectively described the debut as having ``no interfering 
+	narrator.''\autocite[185]{Porter}
+
+	The showcasing of alternative voices was so central to the ethos of the
+	young network that \textit{NPR} turned down a \$300,000 donation from 
+	the Ford 
+	Foundation contingent on the network hiring well-known broadcast
+	journalist Edward P. Morgan as host of \textit{All Things Considered}. 
+	Morgan, recipient of a Peabody Award, would have certainly 
+	brought the new network
+	credibility, but \textit{NPR} feared that the authoritative voice would
+	get in the way of the alternative voices that they wanted to showcase.
+	The ethos of ``standing among'' seems to be baked in to the entire
+	project of public radio.
+
+	This ethos is visible in public television as well. In the mid-1960s
+	Ralph Lowell, Board Chairman of the Boston Educational Television 
+	station proposed that the Oval Office put together a commission on 
+	educational television. President Johnson, believing that this was
+	a job for the private sector, turned to the Carnegie Corporation.
+	What was formed was a diverse team known as the Carnegie Commission
+	on Educational Television. Among others, this team included writer Ralph
+	Ellison, concert pianist Rudolph Serkin, and labor leader Leonard 
+	Woodcock.\autocite[409]{Meany}
+
+	The commission put together a report titled \textit{Public Television, A 
+	Program for Action} which stressed the artistic and transformative value
+	of the medium and the importance of using it to resist the pressure 
+	toward uniformity found in commercial television but instead seek out 
+	and satisfy the needs of the nation's diversity.\autocite[410]{Meany}
+
+	The need for this shift in broadcasting came about because the
+	United States Government had granted access to the airwaves to 
+	commercial stations
+	first, only adding public stations to the media landscape as part of
+	Great Society era reformations. Canada and England, on the other
+	hand, created public broadcasting first and only later opened the
+	airwaves to commercial stations.\autocite[412]{Meany}
+
+	It was this same era of reform that lead the Carnegie Corporation
+	in search of a way to increase the reach of their 
+	humanitarian educational programs for inner-city preschoolers.
+	\autocite[15]{Davis} Lloyd Morrisett, the vice president of programs at
+	the Carnegie Corporation\autocite[7]{Cooney} and a psychologist
+	\autocite[15]{Davis} had noticed his own daughter's fascination with
+	the television medium when his three-year old got up early in the 
+	morning to watch the pre-broadcast RCA test patterns.
+	\autocite[11]{Davis}
+
+	Morrisett then tasked Joan \DIFaddbegin \DIFadd{Ganz }\DIFaddend Cooney, a publicity specialist for the 
+	\textit{United States Steel Hour}, a twice-monthly series on CBS, 
+	\autocite[27]{Davis} with the project of producing a study
+	on the educational possibilities of children's television, backed by a
+	\$15,000 grant. The resulting report, \textit{The Potential Uses of 
+	Television in Children's Education} analyzed the ways that the
+	relatively new technology of television could be used as an educational
+	supplement for preschoolers, particularly those from disadvantaged 
+	backgrounds.
+
+	It was this report which lead to the creation of the program at hand, 
+	\textit{Sesame Street.}
+
+
+	\newpage
+	\thispagestyle{empty}
+	\vspace*{30pt}
+	\begin{center}
+	{\Huge Part I\\ 
+	\Large The Bird-Watcher:\\
+	Attention, Education, and Entertainment}
+	\end{center}
+	\newpage
+
+	\section*{Entertainment: Welcome to \textit{Sesame Street}}
+
+	\noindent\textit{Sesame Street} needs little introduction. One of the
+	longest
+	running shows in the history of television,\autocite{Brit} it has been a 
+	cultural staple of generations of children---and their parents---in the 
+	United States and worldwide.
+
+	While \textit{Sesame Street} is an educational program, it is notable 
+	for its entertainment value. This stems from the realization by the 
+	original producers of the program that in order to compete with the 
+	non-educational television competition only a turn of the dial away,
+	televised preschool education would have to be just as 
+	entertaining.\autocite[38]{Cooney} This is especially true given that
+	at the program's premiere in 1969, there was nothing like it in the 
+	children's media landscape.\autocite[See chapter 3 for a survey of the 
+	contemporary children's television landscape]{Davis} This means that 
+	there were \DIFaddbegin \DIFadd{truly }\DIFaddend no models for the production of the program, nor for 
+	its
+	reception---they could not trust that children knew how to watch
+	educational programs.  
+
+	This realization lead to a fundamental characteristic of the production
+	structure of the program: rather than hire child development and 
+	education specialists to produce the show, they used education research
+	to inform decisions made by seasoned TV, radio, and Broadway producers,
+	writers, composers, and actors. This decision was informed by the 
+	observation
+	that children respond well to adult television and were known to recite
+	adds for beer and cigarettes, as well as having their attention held by
+	adult variety shows such as \textit{Rowan and Martin's Laugh-In.}
+	\autocite[16]{Ostrofsky2012}
+
+	But \textit{Sesame Street} is not just entertaining for children. 
+	In order to encourage parents to watch the show along with their
+	children, a move which would also help keep preschoolers focused,
+	the producers aimed to make the show entertaining enough for parents
+	to want to watch it along with their children.
+	\autocite[294]{Ostrofsky2017}
+	\footnote{Mixed-age television targeting likely began on the 
+	television program \textit{Captain Kangaroo}. \autocite[46]{Davis}} 
+
+	In terms of music, you see to this effect the featuring of musical 
+	performers that parents would know, often playing educational parodies 
+	of their own work. For example, Norah Jones...
+
+	Entertainment, the producers understood, is a tool for
+	cultivating attention.
+
+
+	\section*{Listening with: Attention as Grounds for Ethics}	
+
+	The philosophy of music on \textit{Sesame Street} was perhaps best 
+	summarized by Joe Rapso, the first music director of the program, in a
+	1971 press release. The program's diverse music, he said, would
+	help bridge cultural divides when the kids were grown up and ``bring all
+	kids together, whether they live in Grosse Point or on 148th Street in 
+	the Bronx... And the beauty of our music is maybe that the child in the
+	Grosse Pointe home is hearing gospel and blues for the first time and 
+	the black child in the urban ghetto is hearing a harpsichord and flute 
+	for the first time. Someday, when they grow up, they'll have one more 
+	thing in common.''\autocite[297]{Ostrofsky2012}
+
+	\DIFaddbegin \DIFadd{Rapso's belief in the power of music is idealistic and his assumption
+	that the privileged child has never heard blues or gospel is 
+	over-simplistic, but we see with this statement a clear expression of
+	an ethics of understanding through sonic exposure: 
+	}\DIFaddend By using entertainment to focus attention and expose children to music 
+	from other social and economic contexts,
+	Rapso is promising not only a musical education, but also an ethical 
+	one. Having ``one more thing in common'' is perhaps here grounds for 
+	the social understanding which is historically valued by public media.  
+	\DIFaddbegin \DIFadd{The ``power of music'' is an idea which often arises in neoliberal 
+	discourses of music and its value. While Rapso's statement on the power
+	of music to bridge cultural divides shares many of the same language
+	as these neoliberal  discourses, I find that the presentation of music
+	on }\textit{\DIFadd{Sesame Street}} \DIFadd{is divergent from the standard neoliberal
+	narratives of music and music education, which I discuss in the section
+	``Grouchy about multiculturalism.'' I understand these neoliberal
+	discourses through
+	Ana Bull's analysis of their prevalence in the British musical
+	education system in }\textit{\DIFadd{Class, Control, and Classical Music}} \DIFadd{and
+	Marianna Ritchey's analysis of how classical music has been put to the
+	service of capitalism in }\textit{\DIFadd{Composing Capital}}\DIFadd{. Whereas the musical
+	narratives discussed in these books emphasize the creation of 
+	value by the individual, the ethos of \ses, while it displays certain
+	neoliberal aspects, leans strongly toward a more collectivist and 
+	humanist ethos of understanding based not in creating value through
+	music, nor even in creating music, but instead 
+	based in sonic exposure and practices of listening.  
+}\DIFaddend 
+
+	\DIFdelbegin \DIFdel{This understanding through sonic exposure }\DIFdelend \DIFaddbegin \DIFadd{This ethos of understanding }\DIFaddend resonates with the theories 
+	of media developed by Jenny Odell in 
+	\textit{How To Do Nothing}, a book at the intersection of media theory
+	and ecology. Odell places attention as the center of ethics. We decide 
+	who is seen, who is heard, and who has agency, through acts of 
+	attention. \autocite[154]{Odell} \DIFaddbegin \DIFadd{I propose that Odell can help us 
+	interpret the soundscape of }\textit{\DIFadd{Sesame Street}} \DIFadd{and the listening
+	which it cultivates. I take her theories of attention as my primary
+	framework for the ecologies of music and understanding
+	prevalent in the program. I make this shift away from traditional
+	musicological tools of analysis largely because \ses is a project which
+	spans multiple generations of artists, producers, and sources of
+	funding, yet has retained its character. It changes more like a forest
+	does than a sonata. \ses is an emergent phenomenon, the result of the
+	interactions and conflicts of numerous actors, rather than the vision
+	of a small group of musicians and composers---the scale which current 
+	musicological tools privilege. 
+}\DIFaddend 
+
+	\DIFdelbegin \DIFdel{Echoing Pauline Oliveros}\DIFdelend \DIFaddbegin \DIFadd{I take many cues from sound studies, particularly Pauline Oliveros...
+}
+
+	\DIFadd{Echoing Oliveros}\DIFaddend , Odell describes a way of engaging with the 
+	world similar to that of bird watching, which she says is better 
+	described as bird \textit{listening}.
+	\DIFdelbegin \DIFdel{The }\DIFdelend \DIFaddbegin \DIFadd{By listening with the birds---listening in a way which acknowledges
+	ones own subjectivity and their location as another sounding element of
+	the sonic world---the }\DIFaddend listener learns to differentiate and identify 
+	the sounds 
+	of the different birds in an environment, and thereby becomes aware
+	of the ecology around them and their place within it.\autocite{Odell} 
+
+	This ecological, attention-based understanding of the world requires 
+	that one gives up the idea of discrete entities, simple origin stories,
+	and simple one-to-one causalities, and above all, requires time.
+	The direct product of this attention, Odell says, is context. 
+	That is, paying close attention can help us better understand the 
+	nuanced ecologies of being and identities that make up the ecological
+	relationships of an environment. The longer that the attention is held, 
+	the more context appears.\autocite[155]{Odell} 
+
+	This is musically apparent in the skits of Muppet Simon Soundman.
+	In one skit \DIFdelbegin \DIFdel{, }\DIFdelend \DIFaddbegin \DIFadd{from 1973,}\autocite{0458} \DIFaddend Simon visits a music store, where
+	he \DIFdelbegin \DIFdel{tell }\DIFdelend \DIFaddbegin \DIFadd{tells }\DIFaddend the shopkeeper
+	that he is in the market for a ``nice, shiny---'' and then we hear a
+	long trumpet lick as his mouth moves in time. 
+
+	``\DIFdelbegin \DIFdel{Uhh}\DIFdelend \DIFaddbegin \DIFadd{Uh}\DIFaddend ... \DIFdelbegin \DIFdel{Ohh}\DIFdelend \DIFaddbegin \DIFadd{Oh}\DIFaddend ... Would you mind repeating that, sir?''
+
+	``No, indeed. What I said was I'd like to buy a nice, shiny---'' and
+	then the trumpet sounds again. 
+
+	The shopkeeper goes off-screen and returns with an instrument. 
+
+	``Here you are, sir. A beautiful new violin.''
+
+	``No, no, no... I don't want a---'' this time he makes violin
+	sounds.  ``You see, because what I asked for was a nice, shiny---''
+
+	And the skit goes on like this with for a number of minutes with the 
+	shopkeeper bringing back the wrong instruments and Simon Soundman
+	referring to them only through impeccable renditions of their sound. 
+
+	This skit uses a simple and entertaining gag to expose children to the
+	sounds, names, and appearances of several common instruments. \DIFdelbegin \DIFdel{Like }\DIFdelend \DIFaddbegin \DIFadd{Just as 
+	}\DIFaddend Odell
+	discusses leaning to identify birds by their sounds, children are	
+	taught here to learn to identify the sounds of several common 
+	instruments that you would find in the environment of music store or 
+	a big band---the sound that the shopkeeper himself makes once Simon
+	leaves, saying ``that fellow was pretty good. Huh. I should have asked
+	him if he would like to play in our---\DIFdelbegin \DIFdel{.'' }\DIFdelend \DIFaddbegin \DIFadd{'' and we hear the sounds of a
+	big band.  
+}\DIFaddend 
+
+	But Rapso's statement on music \DIFdelbegin \DIFdel{goes }\DIFdelend \DIFaddbegin \DIFadd{and the broader ethos of \ses 
+	demonstrated through its programming go }\DIFaddend beyond awareness and context of 
+	musical instruments. It is primarily one of social context. To quote 
+	\DIFdelbegin \DIFdel{a }\DIFdelend pioneering broadcast journalist Edward R Murrow,
+	the role of television is to make the world aware of
+	itself.\autocite[54]{Davis} By creating a media platform through which 
+	children of different backgrounds can gain exposure to each other's 
+	music, they
+	will have an increased awareness and understanding of each other.
+	Implicit in all this is the idea that this will relive social and class
+	tensions. \DIFdelbegin \DIFdel{Rapso was implying }\DIFdelend \DIFaddbegin \DIFadd{The press release where this statement was made was titled 
+	''Beetles and Beethoven, Move on Over. The Seventies Sound Is Sesame 
+	Street.'' Rapso was selling the radical potential of the program and
+	musical sounds, albeit idealistically. With this statement he was 
+	selling }\DIFaddend a social and ethical education based in context and 
+	understanding through \DIFaddbegin \DIFadd{acts of sonic }\DIFaddend attention. 
+
+	This attitude, the social context of listening, is apparent in a number 
+	of musical skits on the program.  
+
+
+	\begin{quote}
+	\subsubsection*{Case Study 1: Itzahk Pearlman and ``What's Easy for You
+	 is Hard for Me''}
+
+	Fading in from black, there is a simple stage set with three folding 
+	chairs. On the third to the right is an instrument case. Entering from 
+	the bottom of the frame, a girl runs up the big grey steps to the stage 
+	and takes a seat to the left, smiling. She looks in the direction she 
+	came from. Itzhak Pearlman enters with a cane in each hand. He begins 
+	to climb the steps to the stage, swinging each stiff leg up to the next
+	level and climbing one step at a time. 
+
+	There are three big steps, presumably made from grey plywood, and then a
+	small step up to the stage. By the second step, the girl begins to 
+	fidget. By the third step her smile has faded and she looks to the side
+	and kick her feet while she waits, perhaps to avoid staring.   
+
+	Pearlman climbs the small remaining distance between the steps and the 
+	stage and turns to sit down. 
+
+	``Ooff. Those steps,'' he says.
+
+	In order to bend at the waist and hips to sit, he unlocks his leg 
+	braces with an audible click and a rotation of his hips. He sits down 
+	and pulls his hands out of the metal rings of his canes.
+
+	``You know,'' he says, turning to the girl, ``some things that are 
+	really easy for you are hard for me.''
+
+	He picks up his violin and checks the tuning with two quick plucks with 
+	his fingerboard hand and then a quick bow across each adjacent string
+	pair, eyes closed. His tone is rich and bright, even when tuning. He 
+	launches into an impressive flourish, starting with double stops 
+	followed by a long run up and down the fingerboard, ending with a right
+	hand pizzicato chord. He does this all with a certain light 
+	effortlessness.
+
+	``Yeah, but some things are easy for you that are hard for me,'' the 
+	girl replies. She lifts her violin and plays a \DIFdelbegin \DIFdel{minor melody }\DIFdelend \DIFaddbegin \DIFadd{melody in a minor key}\DIFaddend .
+	She 
+	carries the tune, but her intonation is unstable. 
+
+	Pearlman tilts his head and leans in with appreciation as she plays.
+	They both smile when she finishes.   
+
+	\end{quote}
+
+	The view of classical music which we gain access to here is not a
+	traditional one. This is not a performance for an audience, but instead
+	a intimate moment of discourse and vulnerability between two 
+	musicians. Here, classical music is not seen from the birds eye view,
+	that of 
+	objective distance, looking over the musical landscape, but that of the 
+	bird listener listening along with. There is no audience in this skit, 
+	\DIFdelbegin \DIFdel{it is
+	more }\DIFdelend \DIFaddbegin \DIFadd{nor is there hierarchy, reverence, or authority. Pearlman may be
+	virtuosic, but he is not established as a master guiding his pupils.
+	This skit is not about Perlman as an individual of status, but rather
+	it is }\DIFaddend about the interaction of the two musicians and how they listen to 
+	and acknowledge each other's lived experiences of music and the world. 
+	\DIFaddbegin 
+
+	\DIFaddend We may be watching from home as a television audience, bit what we see
+	is not the somber performance of canonic works, nor is it an accessible
+	presentation of a classical music program for non-initiates. What we 
+	are watching is a demonstration of ecological musical listening, of 
+	listening \DIFdelbegin \DIFdel{with}\DIFdelend \DIFaddbegin \textit{\DIFadd{with}}\DIFaddend . 
+
+	One might object that this is \textit{media}, and that what we are
+	seeing is fake, a construction. That is, in fact, the case. However, 
+	that does not reduce the potential of an ecological reading of this 
+	skit, nor its efficacy as a demonstration. What we are seeing here is a 
+	representation of an empathetic and ecological experience and a 
+	sandboxed recreation of real life, inasmuch as the producers created an
+	actual experience on the set which we can view the recording of---an 
+	experience which speaks to actual, lived, human encounters. 
+
+	\DIFdelbegin \DIFdel{This encounter }\DIFdelend \DIFaddbegin \DIFadd{The word ``sandboxed'' comes from software design, where it is used
+	to describe an isolated or contained area where a program can be run 
+	with a limited number of resources, often so it cannot cause damage to
+	or drain resources from the larger system. This term has been taken up
+	by collaborative online communities and their projects, such as 
+	Wikipedia, to describe webpages and other spaces where users are free 
+	to experiment without risk of damaging actual 
+	content.}\autocite{Wiktionary} \DIFadd{I use this term
+	to describe a style of educational material where the learner is
+	presented with a place to learn, play, and explore, much like a
+	playground sandbox. The sandboxed space contains materials which are
+	real and pre-existing, just as sand is, but have been curated for 
+	educational purposes.
+	}
+
+	\DIFadd{And like sand on a playground is no less real for its context,
+	this skit }\DIFaddend is no less real for being filmed. Pearlman actually 
+	limped up the tall steps onto the stage as he had done countless times 
+	outside of the \textit{Sesame Street} set---this time was no easier than
+	any other. The girl actually played as she has obviously done for
+	hundreds of hours, and this time was no easier than any other. 
+	Though what we at home are seeing is a representation of a social 
+	encounter, it is a recreation of actual	experiences. 
+
+	And its sandboxing does not detract from its meaningfulness, but rather,
+	it is only through this sandboxing that it can be made into 
+	entertainment and
+	education such that it can contribute to an ethical education. 
+
+	I say all of this to argue that an ecological reading and ecological 
+	education 
+	can come out of ``constructed'' media, that ultimately, it is not 
+	un-reality which is created, but a guided slice of reality, made in 
+	order to facilitate the ecological goal of awareness and context.  
+
+	This next skit similarly features a disabled artist, deaf percussionist 
+	Evelyn Glennie. However, while the Perlman skit called attention to
+	ability and disability, the following skit chooses not to address 
+	disability directly and instead focuses on 
+	on musical and social listening in the context of a classical music
+	performance. 
+
+	\begin{quote}
+
+	\subsubsection*{Case Study 2: Glennie and Linda}
+
+	Glennie is first introduced by an off-screen voice: ``And Now, Evelyn 
+	Glennie, world famous percussionist, will perform a duet with her 
+	friend Linda.''
+
+	Glennie walks in followed by Linda.  
+
+	``Now, I'll tell \textit{you} when to come in. Okay," Glennie says, 
+	signing and 
+	speaking simultaneously, and hands Linda a single mallet.''  
+
+	Glennie launches into an impressive piece of solo classical marimba for 
+	four mallets. 
+
+	At the beginning of an impressive run, Linda taps Glennie's shoulder.
+
+	``Now?'' she signs and mouths.
+
+	``Not now, not now,'' Glennie responds, lifting her mallets. She continues
+	 with the run down from the high end of the Marimba to the middle. A 
+	small hiccup at the end of the phase suggest that she is slightly 
+	flustered, but only slightly. She continues on to the next phrase, 
+	displacing Linda, who stands by her side watching closely, which each 
+	step as she moves up and down the instrument. With a massive run upwards
+	she finishes the phrase and raises her mallets into the air. Linda taps 
+	her shoulder.
+
+	``\textit{Now?}'' 
+
+	``Not now,'' Glennie shakes her head. 
+
+	Glennie crosses the stage to an assortment of unhitched percussion 
+	instruments, including a snare drum and numerous cymbals and other 
+	pieces of resonant metal. Glennie plays a very modern sounding solo, 
+	impressive in its wash of timbres and coordination. At first Linda 
+	plays close attention, but after a few moments she starts to look bored 
+	and disappointed, crosses her arms, and lets her head droop.
+
+	Glennie plays a roll on the snare and looks at her partner expectantly. 
+	Linda is not listening. She tries again. The response is the same. 
+	Glennie taps the splash cymbal lightly. She pokes Linda's shoulder. She 
+	looks up.
+
+	``Now!'' Glennie gestures at the cymbal with a large gesture. 
+
+	Surprised, but excited, Linda raises her mallet and strikes the cymbal. 
+	The audience breaks out in applause. The two look at each other with a 
+	smile and shake hands. 
+
+	They walk to the center stage and take a bow, first to the camera---
+	representing the concert-hall audience---and then to each other. A girl 
+	walks up to them and hands Linda, the amateur, a bouquet of flowers. 
+	Glennie watches, miffed. She puts her hands on her hips and with a look 
+	of shock and disappointment on her face. Linda, soaking up the applause, 
+	smiles, and hands Glennie back her mallet, a gesture much like the lead 
+	ballerina pulling a single rose out of her bouquet to hand to her 
+	partner. Glennie takes the mallet, and storms off the stage, frowning. 
+	Linda turns back to camera and smiles.   
+
+	\end{quote}
+
+	Whereas the first skit centered on ability and disability, this skit 
+	does not present the two deaf performers as encountering any difficulty,
+	not including interpersonal relationships. \DIFaddbegin \DIFadd{This is, in fact, where the
+	humor of this skit comes from: their inability to listen to each other
+	and their resultant misunderstanding of the meaning of a duet. There is
+	a comic symmetry to their misunderstanding: Glennie is unfair to Linda, 
+	during the performance, and Linda returns the favor at the end. 
+}\DIFaddend 
+
+	\DIFdelbegin \DIFdel{The first thing isthat it normalizes deaf interaction }\DIFdelend \DIFaddbegin \DIFadd{By focusing on this misunderstanding, deaf interaction is normalized,
+	attention is drawn away from disability to the point that one might not
+	even realize that the two performers are deaf---not in an erasure of 
+	disability, but through the showcasing of Glennie's musical virtuosity,
+	her domination of the stage, and the skit's focus on the friction
+	which this creates between her and Linda}\DIFaddend .  
+
+	\DIFdelbegin \DIFdel{Where the Pearlman skithighlighted his disability and difficulty, this skit presents normality}\DIFdelend \DIFaddbegin \DIFadd{This friction presents, as part of the musical lesson of the skit, 
+	what a duet is }\textit{\DIFadd{not}}\DIFadd{, and in so doing suggests more fair ways
+	that children might play with each other, musically or non-musically.
+	This aspect of play is an enduring aspect of the musical performances
+	on }\textit{\DIFadd{Sesame Street}}\DIFadd{, where adults often act in childlike ways.
+	Analogs for children, Glennie and Linda show what can go wrong if we
+	fail to listen---however it is in all of our human diversity that we
+	do so. This skit presents an ethics of attention based not only in
+	listening, but also in giving space for others to speak, make sound,
+	and communicate. Through a comical demonstration of misunderstanding, 
+	it delivers a lesson on how understanding starts from fair and balanced
+	communication}\DIFaddend .	
+
+
+	\DIFdelbegin \DIFdel{In fact, it is a skit about listening }\DIFdelend \DIFaddbegin \section*{\DIFadd{Education}}	
+
+
+	\textit{\DIFadd{Sesame Street}} \DIFadd{was met with a heterogeneous 
+	appraisal of its educational model after its debut: 
+}
+
+	\DIFadd{Echoing the thoughts of many traditional educators, preschool authority
+	Carl Bereiter of the Ontario Institute for Studies in education wrote in
+	the }\textit{\DIFadd{Wall Street Journal}} \DIFadd{the morning after the program's 
+	premiere that the program was too far removed from ``structured'' 
+	teaching and warned that the program could fail because ``it's based 
+	entirely on audience appeal and is not really teaching anything in 
+	particular.''}\autocite[200]{Davis}
+
+	\DIFadd{It received an equal amount of criticism form progressive educators, 
+	some of who thought that the program was too traditional. Frank 
+	Garfunkle, a professor of education at Boston University wrote in the 
+	alumni magazine that ``any claim that }\textit{\DIFadd{Sesame Street}} \DIFadd{is a major 
+	educational or media innovation is preposterous. The values implicit in
+	the form and content--strictly three Rs with a mixed bag of dressing---	
+	are traditional... The image of }\textit{\DIFadd{Sesame Street}} \DIFadd{as a unique 
+	vanguard of educational experience is a mirage.''}\autocite[201]{Davis}
+
+	\DIFadd{When the program was later slotted to be shipped abroad in 
+	international co-productions, the BBC turned it down. Children's 
+	program chief, Monica Sims, described the program ``authoritarian'' 
+	referring to its aims to change children's behavior and its emphasis on 
+	right answers.}\autocite[211]{Davis} \DIFadd{This last observation is at odds
+	with the intentions stated by Joan Ganz Cooney in her inaugural
+	research for the program: almost all of the experts she interviewed 
+	wanted to see the teaching of cognitive habits---as defined by Jerome 
+	Kagan to be analysis, generating hypotheses, and reflection---rather 
+	than trying to teach them skills such as how to read. The idea was to
+	teach how to think, not what to think.}\autocite[23]{Cooney}
+
+	\DIFadd{That there were such varied responses to the educational model of the
+	program speaks to its complexity and its resistance to educational 
+	labels. 
+	}
+
+	\DIFadd{On the face of it, }\textit{\DIFadd{Sesame Street}} \DIFadd{quite literally conforms to 
+	the broadcast model of education. The whole project is, after all, 
+	inherently instructivist: it was created as a response to the question
+	``how can we use new technology to give preschool education to as many 
+	children as possible?'' The program 
+	uni-directionally streams educational material to the learner watching 
+	and listening at home, who is left to absorb the information. The 
+	learner has no say in constructing their own education. When it comes to
+	the educational material it presents on basic literacy and numeracy 
+	there are, as noted by the BBC, clear right and wrong answers. 
+	Furthermore, the program has a curriculum 
+	designed by education researchers with intended outcomes and takeaways 
+	for each lesson.}\autocite[117]{Davis} 
+
+	\DIFadd{Literacy and numeracy education are, however, only part of the 
+	educational project of }\textit{\DIFadd{Sesame Street}}\DIFadd{. A great deal of the 
+	programming can be interpreted as, and has been expressed by its 
+	creators, as giving kids a cultural and emotional 
+	education.}\autocite[297]{Ostrofsky2012}
+	\DIFadd{A majority of this cultural and emotional education is open ended. 
+	In the skit with Itzahk Pearlman, viewers are exposed to the stunning 
+	playing of a professional, the attainable playing of a child, 
+	disability, ability, and co-mutual visibility. When the two musicians 
+	play for one another, they do so to express their mutual relationship, 
+	not simply so that the other may listen. They are both listening and 
+	playing }\textit{\DIFadd{with}}\DIFaddend . 
+
+	\DIFdelbegin \DIFdel{The humor from }\DIFdelend \DIFaddbegin \DIFadd{What is a child at home supposed to get from this? This is where 
+	}\textit{\DIFadd{Sesame Street}} \DIFadd{may be instructivist and broadcast-based, but 
+	is moreover }\textit{\DIFadd{non-striated.}} \DIFadd{The }\textit{\DIFadd{listening with}} \DIFadd{aspect of
+	its 
+	educational model drops the learner into an existing network of 
+	understanding, discourse, and culture, such that what they take away
+	from the lesson depends on their personal proclivities and needs, 
+	whether that is simply hearing the master violinist play, or the 
+	understanding that some thing that is easy for one person can be hard 
+	for others.
+}
+
+	\DIFadd{I use this term }\textit{\DIFadd{non-striated}} \DIFadd{to denote a space which is not
+	hierarchical and bounded like striated space as understood by Deleuze 
+	and Guatari, but does not fall into the ``nomadic'' and free spaces 
+	which they describe as ``smooth.'' 
+}
+
+	\DIFadd{The educational analyses in this paper are informed in large part by 
+	Ivan Illich and his book }\textit{\DIFadd{Deschooling Society}} \DIFadd{where he argues
+	that learning would be improved by the abolition of formalized
+	compulsory education. Along these lines, Illich says that it is 
+	delusional to think that we can determine what is necessary education 
+	for others and what is not.}\autocite[12]{Illich} \DIFadd{Furthermore, Illich 
+	demonstrates the ways that the traditional classroom asserts itself as
+	the only worthwhile source of education, which Illich argues actually 
+	limits the number of skilled and educated people}\autocite[39]{Illich} 
+
+	\textit{\DIFadd{Sesame Street}}\DIFadd{, on the other hand, understands that it is not 
+	the only source of education, nor does it attempt to be. In this way its
+	educational material can be much more open ended and nuanced. 
+}
+
+	\DIFadd{In one of Yo-Yo Ma's appearances on the program in the 1980s' he plays
+	a classical quartet with the Muppets. Bob the music teacher appears, 
+	but he does not lead any lesson. In fact, he is pushed off the stage by 
+	a conducting Big Bird who tells him to take a seat after Bob hints that
+	he finds the whole affair silly.
+}
+
+	\DIFadd{Where is the schooling, where is the teacher, in this skit? The 
+	traditional teacher is physically forced off the stage, leaving no clear
+	instructor.  Perhaps the teacher is the program itself.  While the 
+	producers have presumably decided what should be taken away from }\DIFaddend this 
+	\DIFdelbegin \DIFdel{skit comes from their inability to listen to each other and from a lack of an understanding of what a duet is }\DIFdelend \DIFaddbegin \DIFadd{lesson---have in a sense decided what should be learned---there is no 
+	direction or guidance into how it should be watched. Ivan Illich
+	proposes that in the place of traditional educators we have
+	pedagogical counselors who would advise a student on where to seek 
+	instruction, what methods of learning would be appropriate for their 
+	skills, and the like. A role more like that of a subject librarian or a 
+	museum curator combined with a personal tutor.}\autocite[43]{Illich}
+
+	\DIFadd{The presentation of classical music in this skit falls more in line with
+	this style of focused curatorship; The producers of }\textit{\DIFadd{Sesame 
+	Street}} \DIFadd{present to children a number of performances deemed appropriate
+	for their age and level of understanding, but do not coerce their view 
+	or their understanding in one direction or another.
+}
+
+
+	\DIFadd{Of course, this is a written out, synthetic performance. It's not 
+	footage of Ma playing at Carnegie Hall, but something written with the 
+	express purpose of educating and entertaining children. While children 
+	are free to make their own judgements on the performance and learn from
+	it on their own, it is sandboxed. It is a slice of worldly music---Yo-Yo
+	Ma---fictionalized into an entertaining and open-ended skit. 
+}
+
+	\DIFadd{Illich argues that ``childhood'' as a period of life separate from 
+	infancy, adolescence, or youth did not begin to appear until the 
+	Renaissance, and not in its present form until industrialization.
+	}\autocite[13]{Illich} \DIFadd{He continues that childhood is not only a modern
+	invention, but is also a burden to the adolescent, who is prevented 
+	from being whole person.}\autocite[14]{Illich}
+
+	\DIFadd{One might argue, then, that a true Ilichian education would disavow the
+	entire idea of children's' media and simply present children with 
+	performances of worldy art---perhaps in this case simply with 
+	}\textit{\DIFadd{The Muppet Show}}\DIFadd{. This idea holds less water when you 
+	acknowledge that, again, the role of the Ilichian counselor is to curate
+	materials appropriate to the skills and understanding of the learner, 
+	not just to throw them into the deep end of, say, molecular biology 
+	and tell them to swim. Anarchist education entails the lack of coercion,
+	not the lack of guidance. 
+}
+
+	\DIFadd{Furthermore, the argument that it is non-Illichian because it is
+	is children's media depends on the assumption that \ses is educational
+	material only and not itself a work of art. 
+	Analyzing \ses as art opens a whole tool set for understanding as well
+	as bringing us closer to the production experiences of the Broadway, TV,
+	and radio producers who were writing the show}\DIFaddend .  
+
+	\DIFdelbegin \DIFdel{First Glennie is not playing fair with Linda, hogging the show, and then Linda is unfair to Glennie, but justifiably. This
+	teaches about what is a duet}\DIFdelend \DIFaddbegin \DIFadd{Illich also argues that obligatory schooling divides society into the 
+	realms of the ``academic'' and the ''non-academic'' and thereby renders
+	education non-worldly and the world non-educational.}\autocite[12]
+	{\DIFadd{Illich}} \DIFadd{On }\textit{\DIFadd{Sesame Street}}\DIFadd{, the musical education is more wordly
+	than it is ``educational,'' giving children a more or less direct look 
+	into the world of popular music. Even the show's set, based on actual
+	streets and buildings in Harlem}\autocite[154]{Davis} \DIFadd{has a
+	 woldly character to it where children learn }\textit{\DIFadd{casually}}\DIFadd{---by 
+	which I mean, even when they are not being taught a lesson in spelling,
+	they are being exposed to themes of difference and coexistance, not to 
+	mention exposure to kinds of music which they may not have heard 
+	otherwise. In this way, the world is rendered educational. Likewise, 
+	education is rendered wordly as, for example, B.B. King singing about 
+	words that start with B. This is a lesson in literacy presented through
+	music which is very much ``of the world'' and has its own real racial, 
+	social, and historical discourses which are rendered in its very 
+	vibrations. This is not ``childrens music'' or music built from scratch
+	particularly to teach children words that start with B, but rather a 
+	worldly art form adapted for this particular lesson-context}\DIFaddend .
+
+	\DIFdelbegin \DIFdel{This also gets into the territory of }%DIFDELCMD < [%%%
+\DIFdel{childlike virtuosity on *Sesame Street}\DIFdelend \DIFaddbegin \DIFadd{I say all of this not to make the hard-line argument that }\textit{\DIFadd{Sesame
+	Street}} \DIFadd{is virtuous and non-traditional, but rather that is  
+	resistant to educational classifications.
+	It is somehow at once instructivist, yet open-ended. This
+	is what I mean when I say that }\textit{\DIFadd{Sesame Street}} \DIFadd{is non-striated: 
+	It is not a reproduction of the traditional classroom where students are
+	coerced into learning what their teachers deem important, but instead 
+	learners are free to interpret the skits to find whatever emotional or 
+	cultural meaning that they themselves need. Neither is it a smooth 
+	Deleuzeian space with no educational goals or structure at all, but 
+	instead a sandboxed, curated space of open-ended cultural and 
+	emotional learning}\DIFaddend .
+\DIFdelbegin \DIFdel{*}%DIFDELCMD < ]%%%
+\DIFdel{(1053.md) This skit, along with many others }\DIFdelend \DIFaddbegin 
+
+	\DIFadd{This all makes sense given that the program was developed in order to 
+	help close the gap between underprivelideged and higher class 
+	preschoolers}\autocite[sec. 1]{Cooney}\DIFadd{. These are learners who, 
+	definitionally, have not yet been schooled. Therefore all of their 
+	learning so far has been casual and incidental. Illich addresses this 
+	exact problem when he argues in the introduction to }\textit{\DIFadd{Deschooling
+	Society}}\DIFadd{, that poor students will always be behind their wealthier
+	counterparts}\autocite[5]{Illich}\DIFadd{. Poor students lack the books, 
+	conversations, and travel which casually educate wealthier children.
+	A non-striated, Illichian education, then makes perfect sense for
+	a televised early-childhood supplement.
+}
+
+	\subsection*{\DIFadd{Funding and political backgrounds}}
+
+	\DIFadd{Perfect sense, except for the fact that it was funded by the nation’s 
+	two largest philanthropic organizations—the Carnegie Corporation and 
+	the Ford Foundation—and the United States Government. Critic John 
+	Leonard spoke to this conflict directly with his comment in the New 
+	York Times that ``Any project seducing the philanthropies of two private
+	foundations and a government agency is suspect.``
+	With this statement he was questioning the ability of the program to be 	a truly socially liberal institution, stating that ``Government agencies
+	are permitted to exist... only so long as they use hair sprays to 
+	attack our various social Medusas.'' }\autocite[146]{Davis} \DIFadd{Leonard 
+	points to a central conflict in this study of Sesame Street: how radical
+	is it really? How radical can it really be, given its establishment 
+	patronage?
+}
+
+	\DIFadd{As a partial answer to this question, I would say that the program ended
+	up being more radical than its proposal suggested. This was in no small 
+	part due to executive producer Joan Ganz Cooney’s trust of her artists and 
+	the resulting hands-off approach to leadership.}\autocite[155]{Davis} \DIFadd{For
+	example, a distinctive feature of \ses is is its urban set:
+}
+
+	\DIFadd{Jon Stone, who wrote, produced, directed, and acted }\DIFaddend on the program \DIFdelbegin \DIFdel{, seem like
+	playing pretend in or of Carnegie Hall. It seems that 
+	we have adults pretending to be children pretending to be adults}\DIFdelend \DIFaddbegin \DIFadd{knew
+	from the start that he wanted a set which moved as far away from the 	
+	conventions of children's television as possible.  
+	Inspiration struck in the winter of 1968 when a PSA by the New York 
+	Urban Coalition aired on television. The PSA, which opened with the
+	printed message ``send your kid to a ghetto this summer''  was a biting
+	satire in the style of a travelogue which pointed out the lack of 
+	amenities for urban children. Seeing this, Stone realized that the show
+	must have an inner-city set. For urban children, the sets of traditional
+	television---enchanted castles, circuses, toymakers workshops---were
+	utterly foreign spaces. But ``for a preschool child
+	in Harlem,'' he later commented, ``the street is where the action is. As
+	often as not she is housebound all day while her mother works, and, from	the vantage point of her apartment, the sidewalk outside must look like
+	Utopia. Outside there are kids hollering, jumping double Dutch, running
+	through the open hydrants, playing stickball. Our set had to be an 
+	inner-city street, and more particularly it had to be a brownstone so 
+	that the cast and kids could `stoop' in the age-old New York tradition,
+	sitting on the front steps and watching the world go by.'' The set was 
+	modeled after the actual streets and buildings of Harlem by set designer
+	Charles Rosen. In particular, Stone wanted a movie style set, in all its
+	detail, not the cardboard and canvas used on children's television at 
+	the time.}\autocite[154]{Davis}
+
+	\DIFadd{Cooney, known for her hands-off approach to leadership is remembered by
+	Stone as responding to this idea by saying ``something to the effect 
+	that we were the people she chose to create this program, and if this is
+	how I saw it, so be it.'' }\autocite[155]{Davis} 
+
+	\DIFadd{This idea of an urban set, and the racial politics which that 
+	entailed, came after the funding was secured. In effect, what the 
+	funding agencies of the Children’s Television Workshop were signing off
+	on was Cooney’s proposal to use television entertainment as an 
+	educational medium for preschoolers. Given the state of the children’s 
+	media landscape at the time }\autocite[chapters 1, 3, and 4]{Davis} \DIFadd{this 
+	was no conservative proposal, but perhaps its radicality was seen more 
+	as technological than social---at this point the ideas as they were 
+	presented did not include the racial politics which we will see in 
+	the Hoots and Ma skit in section X, but were more involved with 
+	questions of the ability of the technology---so far used only for 
+	mindless entertainment---to educate. This education was intended 
+	especially for inner-city children as part of the humanitarian goals 
+	which undergird the project, however, throughout its conception and 
+	production, the Children's Television Workshop tried to make a program 
+	that would appeal equally to children of all classes. In short, the 
+	program which received funding in 1967 was perhaps not what aired in 
+	1969.
+}
+
+	\DIFadd{Of course, to receive continued funding, they must have satisfied their 
+	patrons and not offended their sensibilities. This may have been made 
+	possible by the fact that the Children's Television Workshop  was
+	running all of their lessons and skits through scientific trials with 
+	children and they aired what worked. Follow-up research was regularly 
+	conducted to make sure that kids were learning ``in 
+	vivo''}\autocite[118]{Davis} \DIFadd{and perhaps	this was enough.
+}
+
+	\DIFadd{This answer is a bit hand wavy, and \ses did eventually lose government
+	funding: In 1972 the Children's Television Workshop launched a plan to 
+	phase out federal funding by 1981, as the Nixon administration was 
+	opposed to the entire principle of public television and wanted to end 
+	the production of new episodes of \ses and its sister program
+	}\textit{\DIFadd{The Electric Company.}}\autocite[218]{Davis} 
+
+	\DIFadd{There is another 
+	way, however, of looking at the problem of funding and leftist politics.
+	So far the question has been ``if \ses was so 
+	radical, how did it get funded by such high-profile institutions?'' But
+	where did the assumption arise that these are incompatible? It comes 
+	down to pragmatics: In order to keep up with the non-educational 
+	television competition which was only the turn of a dial away, televised
+	preschool education would have to be just as 
+	entertaining.}\autocite[38]{Cooney} \DIFadd{This is just showbiz. What do you get
+	when you turn Broadway writers into distance-learning educators? You get
+	anarchist education, not because of socio-political ideologies, but 
+	simply because it is a solution to the problems of the format. Watching 
+	with parents is encouraged, but ultimately it must be entertaining 
+	enough that no proctor is required to keep the child focused on the 
+	program, and in preschool distance education there is no possibility for
+	coercion: Other techniques of attention must be found. For a number of 
+	reasons, almost all of the experts interviewed by Cooney wanted to see 
+	the teaching of cognitive habits, as defined by Jerome Kagan as 
+	analysis, generating hypotheses, and reflection, rather than trying to 
+	teach them skills such as how to read. She writes 
+	``in the opinion of most, a television program would be very useful 
+	which would teach young children how to think, not what to 
+	think.''}\autocite[23]{Cooney} \DIFadd{This is non-striation par excellence: the
+	student is not guided down a 
+	predetermined path, but instead encouraged to cultivate certain 
+	attributes which will help them see their own path through whatever 
+	situations they may experience.
+}
+
+	\DIFadd{Going forward, when my analysis refers to aspects of \ses as 
+	``ecological,'' ``deschooled,'' or ``anarchist,'' these are not to imply
+	that executive producer Joan Ganz Cooney was an anarchist media theorist
+	who 
+	constructed a program based on her philosophies of education, but rather 	that the answers to the particular design problems which the writing 
+	team faced led them to a particular philosophy of design which, by way 	
+	of a sort of convergent evolution, lies so close the above philosophies 
+	that Ivan Illich provides a functional language for the analysis of 
+	}\textit{\DIFadd{Sesame Street}}\DIFadd{.
+}
+
+	\DIFadd{Taking as my definition of anarchism, ``the principled opposition to 
+	coercion,'' what we have here is instead ``the pragmatic disutility of 
+	coercion.'' Is this anarchism? In many ways no, but the results 
+	are so similar that it is hard to tell the difference, or if that 
+	difference is really meaningful.
+}
+
+	\DIFadd{My analysis via these philosophies does the work of highlighting this 
+	convergence with radical politics which might otherwise go unnoticed. 
+	``Anarchy'' is a word which frightens both those on the left, seemingly
+	 resonant of Libertarianism, and those on the right, for whom it stinks 
+	of Marxism. My goal is multifold: on the one side I would like to 
+	analyze these aspects of }\textit{\DIFadd{Sesame Street}}\DIFadd{’s musical education 
+	which have gone overlooked. This is germane to scholars of 
+	}\textit{\DIFadd{Sesame Street}}\DIFadd{, television, and children’s media. On the other 
+	side, this is relevant musical pedagogy more broadly. In a sense,
+ 	I am attempting to radicalize \ses and thereby normalize anarchism and 
+	deschooling and in so doing suggest new forms of education for all ages. 
+	I am writing this at a time when arts education in public schools and 
+	humanities education in higher ed are being challenged by both the 
+	weight of late-stage capitalism and the destructive influence of a 
+	global pandemic. What can be found in the \ses archive which 
+	reveals its emergent philosophies of education, and what do these design 	practices reflect about musical education more broadly? In other words, 	how can \ses give us insight into more resilient forms of musical 
+	eduction?
+}
+
+	\DIFadd{This is not, mind you, a paper on how deschooling can save education and
+ 	how \ses gives us a convenient case study to this end. Illich 
+	describes education as the fundamental state of human kind, it needs 
+	saving no more than does the abstract concept of love. I would also like 	to distance myself from the number of popular narratives which place the 	university in a moment of crisis. For one, crisis denotes a singular 
+	moment wherein a watershed decision must be made. Working within the 
+	Illichian framework, the moment of crisis came and went in the early 
+	modern period and maybe earlier.
+}
+
+	\DIFadd{Rather, this paper is a critical look into the emergent design 
+	philosophies of musical distance-education as they appear in the \ses 
+	archive. While my research is localized to one particular television 
+	program, this study has ramifications for the present moment of 
+	education. That said, my goal is not to suggest that instructors remove 
+	their attendance requirements and stop assigning letter grades, but 
+	rather, in an Odellian sense, to teach the bird-song of non-coercion 
+	so that it may be appreciated where it perches}\DIFaddend .
+
+
+	
+
+
+
+
+	\newpage
+	\thispagestyle{empty}
+	\vspace*{30pt}
+	\begin{center}
+	{\Huge Part II\\ 
+	\Large The Worm-Listener:\\
+	Parody, Virtuosity, and Childhood}
+	\end{center}
+
+
+	\newpage
+	\section*{Prologue: The Worm Listener}
+
+	I spent something like a quarter of my life on the south side of 
+	Chicago. There was a summer during that period where I got into the 
+	habit of biking down to the 63rd street beach to comb the sandy shore 
+	for pebbles. There were two kinds that interested me: shiny black 
+	pieces of anthracite coal, and pale grey honeycombs of steel slag. Some
+	thirty miles down the coast, at what now is the Indiana Dunes National 
+	Park, the beach is littered with pebbles of all kinds, glittering 
+	happily beneath the surf or ice of the ancient lake. Here, however, in 
+	the scorched earth left behind by the bonfire that built and destroyed 
+	America, the pebbles were largely fossils of that recent past.
+
+	That summer I went on a sound walk organized by the Midwest Society of
+	Acoustic Ecology at the former site of the US Steel foundry. A section 
+	of the massive industrial campus had been re-wilded and returned to its
+	pre-steel state of fresh-water marsh. Some birds chirped, we saw an 
+	egret, but it had turned out to be one of those hot summer days where 
+	the air is still, heavy, and all the more stifling for its enveloping 
+	silence. 
+
+	At some point the walk took us to a part of the wooded hammock where 
+	the artists had driven microphones---geophones---into the earth. When 
+	my turn came around I put on the headphones and listened. 
+
+	I was immediately made aware of my on weight on the ground beneath me. 
+	Any small motion and I would hear myself in the microphone like an 
+	earthquake. Any large motion and the bugs, which I now realized were all
+	around me, would stop and I would have to wait for some time before they
+	started to move again. 
+
+	I had never heard anything like it. It was a sound impossible to 
+	describe in terms of our air-based hearing. And I was part of it. The 
+	subterranean bugs heard and responded to me just as I to them. Through 
+	the assistive technology of contact microphones and digital amplifiers, 
+	I was given access to the worm's-ear view of the ever-present world 
+	beneath my feet. The sounds were foreign, but in no way unpleasant. Is 
+	this the sound of an ant, a worm? I don't know, but I like it. For me as
+	an air-based listener, this was the sonic experience of a complete outsider.	
+
+	\bigskip
+
+	\begin{center}
+	***
+	\end{center}
+
+	\noindent The Bernstein Young Peoples Concerts...
+
+	\newpage
+	\section*{Listening \textit{with} the Music: Ecological Humor} 
+
+	
+\newpage
+%\singlespacing
+\printbibliography
+\end{document}
+
+
+%	While the program's most recognizable faces may be the members of its 
+%	puppet cast, who hail from Jim Henson's troupe *The Muppets*, music and
+%	musicians play an important role in the program's educational mission,
+%	as well as its multi-age appeal. 
+
+
